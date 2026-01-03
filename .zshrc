@@ -47,6 +47,7 @@ alias path='echo "$PATH" | tr ":" "\n" | nl'
 alias glg='git log --stat --date=local'
 alias ggpush='git push -u origin "$(git_current_branch)"'
 alias grs.='git restore .'
+alias gmm='git merge $(git_main_branch)'
 
 
 if [ -x "$(command -v colorls)" ]; then
