@@ -46,6 +46,7 @@ alias open='open_command'
 alias path='echo "$PATH" | tr ":" "\n" | nl'
 alias glg='git log --stat --date=local'
 alias ggpush='git push -u origin "$(git_current_branch)"'
+alias grs.='git restore .'
 
 
 if [ -x "$(command -v colorls)" ]; then
